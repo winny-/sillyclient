@@ -1,0 +1,6 @@
+name: sillyclient
+about: Upload text to sillypaste
+subcommands:
+  - languages: {}
+  - paste: {}
+  - list: {}

@@ -9,6 +9,10 @@ edition = "2021"
 git = "https://github.com/sj99110/sillypaste_cli_api"
 rev = "6e28a1399a91e5042cd6218b5a84c5c18dc8b838"
 
+[dependencies.clap]
+version = "3.2"
+features = ["yaml"]
+
 [dependencies]
 "futures" = "0.3"
 "tokio" = "1.19"
